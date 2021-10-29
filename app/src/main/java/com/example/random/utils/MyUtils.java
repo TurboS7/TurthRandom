@@ -1,5 +1,7 @@
 package com.example.random.utils;
 
+import java.util.Arrays;
+
 public class MyUtils {
     /**
      * 获取数组

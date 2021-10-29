@@ -38,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
             arrs[6] = arr1[1];
             list_num.add(arrs);
         }
-        tv.setText(list_num.toArray().toString());
+        String nubers = "";
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j <list_num.get(i).length ; j++) {
+                nubers =nubers+ " "+list_num.get(i)[j];
+            }
+            nubers = nubers + "\n";
+        }
+        tv.setText(nubers);
     }
 }
